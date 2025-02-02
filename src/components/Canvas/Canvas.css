@@ -1,0 +1,81 @@
+/* src/components/Canvas/Canvas.module.css */
+.container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.canvasWrapper {
+  position: relative;
+  touch-action: none;
+}
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .canvas-container {
+    max-width: 300px;
+  }
+}
+
+canvas {
+  border: 2px solid #eee;
+  border-radius: var(--border-radius);
+  touch-action: none;
+  display: block; /* Prevents extra space below canvas */
+}
+
+.tools {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px;
+}
+
+.tools input[type="color"] {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tools input[type="range"] {
+  width: 150px;
+  cursor: pointer;
+}
+
+.colorPicker {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 2px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.colorPicker:hover {
+  border-color: #94a3b8;
+}
+
+.brushSize {
+  width: 120px;
+  accent-color: var(--primary);
+}
