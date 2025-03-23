@@ -1,6 +1,6 @@
-# 🎨 Party Draw AI
+# 🎨 Pictionary AI
 
-A modern twist on the classic drawing-and-guessing game, powered by local AI. Player draw prompts while an AI model (via Ollama) attempts to guess the word in real-time.
+A modern twist on the classic pictionary game, powered by local AI. Player draw prompts while an AI model attempts to guess the word in real-time.
 
 ## 🚀 Features
 
@@ -86,6 +86,7 @@ These settings can be modified in the `.env` file in the backend directory.
 - [ ] support more languages (my doughters asked for this one).
 - [ ] support non local llm models.
 - [ ] dark mode (OMG its soooooo bright :sunglasses:).
+- [ ] additional game modes
 
 Feel free to suggest more features!
 
