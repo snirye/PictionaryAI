@@ -93,3 +93,7 @@ Feel free to suggest more features!
 📄 License
 MIT License - see LICENSE for details
 
+## Support
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/snirye)
+
+
