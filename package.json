@@ -10,8 +10,11 @@
     "fabric": "^6.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "glob": "^10.3.10"
   },
   "scripts": {
     "start": "node backend/server.js & react-scripts start",
